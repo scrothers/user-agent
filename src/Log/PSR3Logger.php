@@ -4,7 +4,7 @@ namespace Crothers\UserAgent\Log;
 
 use Psr\Log\LoggerInterface;
 
-class PSR3Logger
+class PSR3Logger implements LogInterface
 {
     /**
      * The logging instance being used.
